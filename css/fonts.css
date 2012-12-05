@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'HelveticaNeue47LightCondensed';
+    src: url('../type/helveticaneue-lightcond-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue57Condensed';
+    src: url('../type/helveticaneue-condensed-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue67MediumCondensed';
+    src: url('../type/helveticaneue-mediumcond-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OstrichSansRounded';
+    src: url('../type/ostrich-rounded.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OstrichSansBlack';
+    src: url('../type/ostrich-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

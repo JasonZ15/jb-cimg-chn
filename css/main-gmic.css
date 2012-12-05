@@ -1,0 +1,26 @@
+html {background-image: none; background-color: #fff;}
+body {background: transparent url(../images/tile.gif) 0 0 repeat;}
+#wrapper {background: transparent url(../images/header-bg-2.gif) 0 0 repeat-x;}
+
+#header {margin: 0 auto; width: 960px; position: relative;}
+
+#logo-area {margin:0;}
+
+#logo-area #logo {padding:0;}
+
+#logo-area #logo a {display: block; background: transparent url(../images/gmic-main-title.png) -76px 0px no-repeat; width: 960px; height:0px; margin:0; overflow: hidden; padding-top: 89px;}
+
+#top-menu {position:absolute; right: 30px; top: -14px;}
+#top-menu li {background-color: #333; padding:2px 4px 2px 4px;}
+
+#main-area {background: transparent url(../images/tile.gif) 0 0 repeat; }
+#content-area {padding: 20px 0 43px 0; background: transparent url(../images/divider.gif) center 50px no-repeat; }
+
+.post-content p.beijing {padding-top: 0;}
+.post-content p.beijing img {margin:0; margin-top: -5px;}
+.post-content p.beijing {margin:0 40px 0 0;}
+.post-content p.silicon {margin: 0 0 0 -36px;}
+
+.footer_wrap { background-color: #fff; padding-top:0;}
+#main_footer {width:960px; margin: 0 auto;background-image: none; text-align: center;}
+#main_footer .social-buttons {width:116px; margin: 0 auto; }
