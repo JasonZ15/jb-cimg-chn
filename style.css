@@ -50,7 +50,7 @@ html {
 
 body { line-height: 20px; font-family: "HelveticaNeue57Condensed", "Helvetica Neue Condensed", "Helvetica", sans-serif; font-size: 13px; color: #676761;  padding: 0px; }
 body.page-template-page-landing-php {font-family: "HelveticaNeue57Condensed", "Helvetica Neue Condensed", "Helvetica", sans-serif !important;}
-a { text-decoration: none; color: #b32828; }
+a { text-decoration: none; color: #8881c5; }
 a:hover { text-decoration: underline; }
 .clear { clear: both; }
 .ui-tabs-hide { display: none; }
@@ -102,8 +102,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 	    #breadcrumbs #top-menu {padding-top: 0;float: none; padding-bottom: 8px;}	
 		#top-menu li { padding-right: 17px; float:left; font-weight: bold; text-transform: uppercase; }
 			#top-menu a { font-size: 14px; color: #676761; text-decoration: none; }
-			   #breadcrumbs #top-menu a {color: #424242;}
-			   #breadcrumbs #top-menu a:hover {color: #707070;}
+			   #breadcrumbs #top-menu a {color: #1A78C8;}
+			   #breadcrumbs #top-menu a:hover {color: #459feb;}
 			#top-menu a:hover { color: #202020;}
 			.page-template-page-landing-php #top-menu a {font-family: 'Open Sans', Arial, sans-serif !important;}
 			#top-menu > ul > li.current-menu-item > a { font-weight: lighter; }
@@ -315,7 +315,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		right:0px;
 		bottom:135px;
 		display:none;/*hid the button first*/
-		background-color: #C12B2B;
+		background-color: #6666cc;
 		padding: 2px 0 0 4px;
 	}
 	#backtotop a {
@@ -434,13 +434,13 @@ a.action-button .text {display: block;background-color:#3fa2f7; font-family: "He
 a.action-button:hover { background-color: transparent; text-decoration: underline;}
 #header a.action-button {margin: 22px 0 6px -3px;}
 
-a#go-register .color {background-color:#DF4740;background-position: -335px 0px;}
-a#go-register .text {background-color:#DF4740;}
-a#go-register:hover {color:#f7eeed;text-decoration: none;}
+a#go-register .color {background-color:#575096;background-position: -335px 0px;}
+a#go-register .text {background-color:#6c66a6;}
+a#go-register:hover {color:#082359;text-decoration: none;}
 
-a#sponsor .color {background-position: -305px 0px;background-color:#DF4740;}
-a#sponsor .text {background-color:#DF4740;}
-a#sponsor:hover {color:#f7eeed;text-decoration: none;}
+a#sponsor .color {background-position: -305px 0px;background-color:#2f88cc;}
+a#sponsor .text {background-color:#4f99d2;}
+a#sponsor:hover {color:#2a467f;text-decoration: none;}
 
 a#wrap-up-doc {color:#1a78c8;}
 a#wrap-up-doc .color {background-color:#1a78c8;padding-left: 22px;background-position: -84px 0px;}
