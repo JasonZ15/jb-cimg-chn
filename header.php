@@ -53,9 +53,9 @@ echo $image[0]; ?>" />
 	<div id="fb-root"></div>
 <div id="top-bar"><div class="holder">
 		<a href="http://www.thegmic.com" id="thegmic"></a>
-		<a href="http://gmic.greatwallclub.com" id="gmic-beijing"></a>
+		<a href="http://beijing.thegmic.com" id="gmic-beijing"></a>
 		<a href="http://sv.thegmic.com" id="gmic-sv"></a>
-		<a href="http://gmic.greatwallclub.com/" class="chinese"></a>
+		<a href="http://beijing.thegmic.com/" class="chinese"></a>
 		</div></div>
 
 	<div id="container">
