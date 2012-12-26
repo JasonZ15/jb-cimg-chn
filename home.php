@@ -72,7 +72,7 @@
 
 <?php if ( 'on' == et_get_option('flexible_display_fromblog_section','on') && ( 'false' == et_get_option('flexible_blog_style','false') ) ) { ?>
 	<section id="blog" class="clearfix">
-		<h1 class="section-title"><a href="http://gmic.greatwallclub.com/cn/category/recent-news/" target="_blank"><?php esc_html_e( '最新消息', 'Flexible' ); ?></a></h1>
+		<h1 class="section-title"><a href="/cn/category/recent-news/" target="_blank"><?php esc_html_e( '最新消息', 'Flexible' ); ?></a></h1>
 		<!--<span class="section-tagline"><?php esc_html_e( '最新消息', 'Flexible' ); ?></span>-->
 		
 		<a href="<?php echo esc_url( et_get_option( 'flexible_more_posts_url', '#' ) ); ?>" class="more"><?php esc_html_e( '阅读更多 &raquo;', 'Flexible' ); ?></a>
