@@ -92,7 +92,13 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 /*------------------------------------------------*/
 /*---------------[MAIN LAYOUT INFO]---------------*/
 /*------------------------------------------------*/
-
+#top-bar {background: #212121 url(images/bar-on-top.png) center 0 no-repeat;}
+#top-bar .holder {width: 960px; margin: 0 auto; height: 29px; position: relative;}
+#top-bar .holder a {position: absolute; top: 0;display: block; height: 29px;}
+a#thegmic {width:34px; left:0;}
+a#gmic-beijing {left: 46px; width:200px;}
+a#gmic-sv {left: 250px; width:224px;}
+a.chinese {right:0; width:48px;}
 #container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
 	#logo-area { float: right; margin-bottom: 21px; }
 		#logo { float: left; font-weight: bold; font-size: 34px; text-transform: uppercase; }
