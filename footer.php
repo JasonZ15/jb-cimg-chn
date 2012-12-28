@@ -87,6 +87,8 @@
 	   <li style="width: 111px;"><img src="http://gmic.greatwallclub.com/cn/wp-content/themes/gmic/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
 	  <li style="width: 139px;"><a href="http://www.domob.cn/" target="_blank"><img src="http://gmic.greatwallclub.com/cn/wp-content/uploads/2012/09/domob2.png" height="57" 
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.yicha.cn/" target="_blank"><img src="http://gmic.greatwallclub.com/wp-content/uploads/sponsors/yicha.png" height="57" 
+	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	  
 	</ul>
 	<div class="clearfix"></div>
