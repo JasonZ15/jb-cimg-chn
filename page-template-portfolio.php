@@ -30,7 +30,7 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 	<div id="left-area">
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>				
 			<article id="post-<?php the_ID(); ?>" <?php post_class('entry clearfix'); ?>>
-				<a style="float: right;" href="http://www.gmic-sv.com/previous-speakers" id="previous-speakers" class="action-button"><span class="color"><span class="text">Previous Speakers at GMIC</span></span></a>
+				<a style="float: right;" href="/cn/previous-speakers" target="_blank" id="previous-speakers" class="action-button"><span class="color"><span class="text">往届演讲嘉宾</span></span></a>
 				
 
 				<?php
@@ -122,11 +122,11 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 												<span class="et_pt_portfolio_overlay"></span>
 												
 												
-												<a class="et_portfolio_more_icon" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more','Flexible'); ?></a>
+												<!--<a class="et_portfolio_more_icon" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more','Flexible'); ?></a>-->
 											</div> <!-- end .et_pt_portfolio_image -->
 										</div> <!-- end .et_pt_portfolio_entry -->
 										<?php if ($et_ptemplate_showtitle) { ?>
-											<h2 class="et_pt_portfolio_title" style="padding-bottom: 8px;"><a href="<?php the_permalink(); ?>" style="font-size: 18px;"><?php echo $et_portfolio_title; ?></a></h2>
+											<h2 class="et_pt_portfolio_title" style="padding-bottom: 8px;"><!--<a href="<?php the_permalink(); ?>" style="font-size: 18px;">--><?php echo $et_portfolio_title; ?></h2>
 										<?php } ?>
 										<?php if ($et_ptemplate_showdesc) { ?>
 											<p style="line-height: 14px">
