@@ -76,7 +76,7 @@
 		<img class="title-tab" src="<?php echo get_template_directory_uri(); ?>/images/sponsors-tab.png" />
 <div class="image_carousel">	
 	<ul id="foo3">
-	   <li style="width: 111px;"><img src="http://gmic.greatwallclub.com/cn/wp-content/themes/gmic/images/top-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>   
+	   <li style="width: 111px;"><img src="<?php echo get_template_directory_uri(); ?>/images/top-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>   
 	  <li style="width: 161px;"><a href="http://www.sina.com.cn/" target="_blank"><img src="http://gmic.greatwallclub.com/cn/wp-content/uploads/2012/09/sina.png" width="135" style="border: 1px solid #7b6596; padding: 9px 5px 10px 5px;" /></a></li>
 	  <li style="width: 161px;"><a href="http://www.qq.com/" target="_blank"><img src="http://gmic.greatwallclub.com/cn/wp-content/uploads/2012/09/tengxun.png" width="135" style="border: 1px solid #7b6596; padding: 9px 5px 10px 5px;" /></a></li>
 	  
@@ -84,7 +84,7 @@
 	  
 	   <li style="width: 161px;"><a href="http://www.uc.cn/index.html" target="_blank"><img src="http://gmic.greatwallclub.com/cn/wp-content/uploads/2012/09/ucweb.jpg" width="135" style="border: 1px solid #7b6596; padding: 9px 5px 10px 5px;" /></a></li>
 	   
-	   <li style="width: 111px;"><img src="http://gmic.greatwallclub.com/cn/wp-content/themes/gmic/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
+	   <li style="width: 111px;"><img src="<?php echo get_template_directory_uri(); ?>/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
 	  <li style="width: 139px;"><a href="http://www.domob.cn/" target="_blank"><img src="http://gmic.greatwallclub.com/cn/wp-content/uploads/2012/09/domob2.png" height="57" 
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.yicha.cn/" target="_blank"><img src="http://gmic.greatwallclub.com/wp-content/uploads/sponsors/yicha.png" height="57" 
