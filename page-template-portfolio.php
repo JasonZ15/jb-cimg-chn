@@ -129,7 +129,7 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 											<h2 class="et_pt_portfolio_title" style="padding-bottom: 8px;"><!--<a href="<?php the_permalink(); ?>" style="font-size: 18px;">--><?php echo $et_portfolio_title; ?></h2>
 										<?php } ?>
 										<?php if ($et_ptemplate_showdesc) { ?>
-											<p style="line-height: 14px">
+											<p style="line-height: 18px">
 												<span style="display: block; padding-bottom: 4px;color:#333;"><b><?php echo get_post_meta($post->ID,'person_title',true); ?></b></span>
 												<b style="color: #00B7F3;"><?php echo get_post_meta($post->ID,'person_company',true); ?></b>
 											</p>
