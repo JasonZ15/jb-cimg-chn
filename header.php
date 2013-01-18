@@ -15,7 +15,7 @@
 	<meta property="og:url" content="<?php the_permalink(); ?>" />
 	<meta property="og:image" content="<?php $image = wp_get_attachment_image_src ( get_post_thumbnail_id ( $post_id ), 'single-post-thumbnail' );
 echo $image[0]; ?>" />
-	<meta property="og:site_name" content="Global Mobile Internet Conference" />
+	<meta property="og:site_name" content="全球移动互联网大会" />
 	<meta property="og:description" content="<?php echo get_the_excerpt(); ?>" />
 	<meta property="fb:admins" content="670979947" />
 	<meta property="fb:app_id" content="377806332292440" />
