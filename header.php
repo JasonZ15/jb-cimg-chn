@@ -68,9 +68,10 @@ echo $image[0]; ?>" />
 				</h1>
 				<!--<h2><?php bloginfo( 'description' ); ?></h2>-->
 			</hgroup>
-			<a href="http://gmic.greatwallclub.com/" class="action-button" id="gmic-sv-brochure" style="margin-top:2px;position: fixed; top:0; right:0;z-index: 999999999;display: none;"><span class="color"><span class="text">English</span></span></a>
+			<a href="http://beijing.thegmic.com" class="action-button" id="gmic-sv-brochure" style="margin-top:2px;position: fixed; top:0; right:0;z-index: 999999999;display: none;"><span class="color"><span class="text">English</span></span></a>
 			<a href="/cn/register/"  id="go-register" class="action-button"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 26px; padding: 12px 20px 14px 5px;">注册参会</span></span></a>
 			<a style="margin-left:5px;" href="/cn/sponsors/" id="sponsor" class="action-button"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 26px; padding: 12px 20px 14px 5px;"><?php esc_html_e( '赞助大会', 'Flexible' ); ?></span></span></a>
+			<a href="/cn/recommend-a-speaker/" id="re-speaker" class="action-button" style="margin-left:5px;"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 25px; padding: 12px 23px 14px 17px;">推荐演讲嘉宾</span></span></a>
 			<p class="social-buttons clearfix"><a id="fb" href="http://weibo.com/gmic" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons.png" /></a><a id="in" href="http://t.qq.com/greatwallclub" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-03.png" /></a><a id="tt" href="http://weibo.com/1656528604/yFWkzE6o7" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-02.png" /></a><a id="em" href="mailto: gmic@greatwallclub.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-05.png" /></a><a id="chinese-overview" href="http://gmic.greatwallclub.com/" target="_blank" style="display: none;"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-06.png" /></a></p>
 			<?php if ( ( $phone_num = et_get_option('flexible_phone_num') ) && '' != $phone_num ) echo '<span id="phone">' . $phone_num . '</span>'; ?>		
 		</header> 

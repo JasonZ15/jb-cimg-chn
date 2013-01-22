@@ -448,6 +448,10 @@ a#sponsor .color {background-position: -305px 0px;background-color:#2f88cc;}
 a#sponsor .text {background-color:#4f99d2;}
 a#sponsor:hover {color:#2a467f;text-decoration: none;}
 
+a#re-speaker .color {background-position: -305px 0px;background-color:#00b7f3;}
+a#re-speaker .text {background-color:#00b7f3;}
+a#re-speaker:hover {color:#0a4f07;text-decoration: none;}
+
 a#wrap-up-doc {color:#1a78c8;}
 a#wrap-up-doc .color {background-color:#1a78c8;padding-left: 22px;background-position: -84px 0px;}
 a#wrap-up-doc .text {background-color:#fff;font-size: 14px;padding:3px 7px 3px 3px;}
