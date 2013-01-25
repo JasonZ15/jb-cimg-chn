@@ -3,9 +3,10 @@
 Template Name: No Margin Full Width Page
 */
 ?>
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
+<?php get_header(); ?>
+<!--<!DOCTYPE html>
+<html <?php language_attributes(); ?>>-->
+<!--<head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title><?php elegant_titles(); ?></title>
@@ -19,29 +20,18 @@ Template Name: No Margin Full Width Page
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fonts.css" type="text/css" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	
-	<!--[if lt IE 7]>
-		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/ie6style.css" />
-	<![endif]-->
-	<!--[if IE 7]>
-		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/ie7style.css" />
-	<![endif]-->
-	<!--[if IE 8]>
-		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/ie8style.css" />
-	<![endif]-->
-	<!--[if lt IE 9]>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
-	<![endif]-->
+	
 <link rel="Shortcut Icon" type="image/ico" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" />
 	<script type="text/javascript">
 		document.documentElement.className = 'js';
 	</script>
 
 	<?php wp_head(); ?>
-</head>
+</head>-->
 <body <?php body_class(); ?>>
-	<div id="container" style="width:980px;">
+	<div id="container" style="width:960px;">
 		<?php do_action('et_header_top'); ?>
-		<header id="header" class="clearfix">
+		<!--<header id="header" class="clearfix">
 			
 			
 			
@@ -49,7 +39,7 @@ Template Name: No Margin Full Width Page
 			<?php if ( ( $phone_num = et_get_option('flexible_phone_num') ) && '' != $phone_num ) echo '<span id="phone">' . $phone_num . '</span>'; ?>		
 		</header> 
 		<div id="main-area">
-			<?php do_action('et_header_menu'); ?>
+			<?php do_action('et_header_menu'); ?>-->
 
 <?php get_template_part('includes/breadcrumbs', 'page'); ?>
 
