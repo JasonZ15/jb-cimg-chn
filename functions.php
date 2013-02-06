@@ -448,7 +448,7 @@ function et_set_font_properties(){
 		
 		if ( $et_header_font <> '' ) { 
 			$font_style .= "<link id='" . esc_attr($et_header_font_id) . "' href='" . esc_url( "http://fonts.googleapis.com/css?family=" . $et_header_font ) . "' rel='stylesheet' type='text/css' />";
-			$font_family = "font-family: '" . esc_html(str_replace( '+', ' ', $et_header_font )) . "', Arial, sans-serif !important; ";
+			//$font_family = "font-family: '" . esc_html(str_replace( '+', ' ', $et_header_font )) . "', Arial, sans-serif !important; ";
 		}
 		
 		if ( $et_header_font_color <> '' ) {
@@ -485,7 +485,7 @@ function et_set_font_properties(){
 		
 		if ( $et_body_font <> '' ) { 
 			$font_style .= "<link id='" . esc_attr($et_body_font_id) . "' href='" . esc_url( "http://fonts.googleapis.com/css?family=" . $et_body_font ) . "' rel='stylesheet' type='text/css' />";
-			$font_family = "font-family: '" . esc_html(str_replace( '+', ' ', $et_body_font )) . "', Arial, sans-serif !important; ";
+			//$font_family = "font-family: '" . esc_html(str_replace( '+', ' ', $et_body_font )) . "', Arial, sans-serif !important; ";
 		}
 		
 		if ( $et_body_font_color <> '' ) {
