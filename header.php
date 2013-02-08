@@ -55,7 +55,8 @@ echo $image[0]; ?>" />
 		<a href="http://www.thegmic.com" id="thegmic"></a>
 		<a href="http://beijing.thegmic.com/cn/" id="gmic-beijing"></a>
 		<a href="http://sv.thegmic.com" id="gmic-sv"></a>
-		<a href="http://beijing.thegmic.com/" class="chinese"></a>
+		<a href="http://beijing.thegmic.com/" class="english"></a>
+		<a href="http://beijing.thegmic.com/jp" class="japanese"></a>
 		</div></div>
 
 	<div id="container">

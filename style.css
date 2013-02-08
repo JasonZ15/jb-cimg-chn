@@ -99,7 +99,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 a#thegmic {width:34px; left:0;}
 a#gmic-beijing {left: 46px; width:200px;}
 a#gmic-sv {left: 250px; width:224px;}
-a.chinese {right:0; width:48px;}
+a.english {right:0; width:48px;}
+a.japanese {right:56px; width:58px;}
 #container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
 	#logo-area { float: right; margin-bottom: 21px; }
 		#logo { float: left; font-weight: bold; font-size: 34px; text-transform: uppercase; }
