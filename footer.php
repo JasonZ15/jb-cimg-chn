@@ -5,7 +5,7 @@
 		</footer> <!-- end #main_footer -->
 	</div> <!-- end #container -->
 <div id="bg">
-	<img src="http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/bg-web3.png" alt="">
+	<img src="http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/bg-web3.jpg" alt="">
 </div>
 
 	<?php wp_footer(); ?>
@@ -100,5 +100,9 @@
 <div id="backtotop">
    <a href="#">&uarr; TOP</a>
 </div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F884312b27a5ab6642dce0fb30a688172' type='text/javascript'%3E%3C/script%3E"));
+</script>
 </body>
 </html>
