@@ -92,7 +92,8 @@
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.admaster.com.cn/" target="_blank"><img src="/wp-content/uploads/sponsors/admaster.jpg" height="57" 
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
-	  
+	  <li style="width: 139px;"><a href="http://www.pacific-crest.com/" target="_blank"><img src="/wp-content/uploads/sponsors/pacific-crest.png" height="57" 
+	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	</ul>
 	<div class="clearfix"></div>
 	<div class="pagination" id="foo3_pag"></div>
