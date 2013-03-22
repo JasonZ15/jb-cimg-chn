@@ -1,12 +1,5 @@
-			</div> 	<!-- end #main-area -->
-		
-		<footer id="main_footer" class="clearfix">
-			<p id="copyright"><!--<span style="font-size:22px;">联系我们</span><br />长城会<br /><a href="mailto: info@gmic-sv.com" title="Email Us" target="_blank">info@gmic-sv.com</a><br /><a href="http://www.facebook.com/theGMIC" target="_blank">www.facebook.com/theGMIC</a><br /><a href="http://www.twitter.com/theGMIC" target="_blank">Twitter: @theGMIC</a><br />565 Clyde Ave, Suite 600, Mountain View, CA, 94043<br />-->Copyright © 全球移动互联网大会 - All rights reserved.<br />长城会主办</p>
-		</footer> <!-- end #main_footer -->
-	</div> <!-- end #container -->
-<div id="bg">
-	<img src="http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/bg-web3.jpg" alt="">
-</div>
+			</div> 	</div><!-- end #main-area -->
+
 
 	<?php wp_footer(); ?>
 <script type="text/javascript" language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.carouFredSel-5.6.1-packed.js"></script>
@@ -76,14 +69,13 @@
 		<img class="title-tab" src="<?php echo get_template_directory_uri(); ?>/images/sponsors-tab.png" />
 <div class="image_carousel">	
 	<ul id="foo3">
-	   <li style="width: 111px;"><img src="<?php echo get_template_directory_uri(); ?>/images/top-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>   
-	  <li style="width: 161px;"><a href="http://www.sina.com.cn/" target="_blank"><img src="/cn/wp-content/uploads/2012/09/sina.png" width="135" style="border: 1px solid #7b6596; padding: 9px 5px 10px 5px;" /></a></li>
-	  <li style="width: 161px;"><a href="http://www.qq.com/" target="_blank"><img src="/cn/wp-content/uploads/2012/09/tengxun.png" width="135" style="border: 1px solid #7b6596; padding: 9px 5px 10px 5px;" /></a></li>
+	   <li style="width: 111px;"><img src="<?php echo get_template_directory_uri(); ?>/images/top-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
+	  <li style="width: 161px;"><a href="http://www.sina.com.cn/" target="_blank"><img src="/cn/wp-content/uploads/sponsors/sina.png" height="57" style="border: 1px solid #7b6596; padding: 0;" /></a></li>
+	  <li style="width: 161px;"><a href="http://www.qq.com/" target="_blank"><img src="/cn/wp-content/uploads/sponsors/tencent.png" height="57" style="border: 1px solid #7b6596; padding: 0;" /></a></li>
+	  <li style="width: 161px;"><a href="http://www.91.com/" target="_blank"><img src="/cn/wp-content/uploads/sponsors/91.png" height="57" style="border: 1px solid #7b6596; padding: 0;" /></a></li>
 	  
-	  <li style="width: 161px;"><a href="http://www.91.com/" target="_blank"><img src="/cn/wp-content/uploads/2012/09/wang_long.png" width="135" style="border: 1px solid #7b6596; padding: 9px 5px 10px 5px;" /></a></li>
-	  
-	   <li style="width: 161px;"><a href="http://www.uc.cn/index.html" target="_blank"><img src="/cn/wp-content/uploads/2012/09/ucweb.jpg" width="135" style="border: 1px solid #7b6596; padding: 9px 5px 10px 5px;" /></a></li>
-	   <li style="width: 161px;"><a href="http://www.xiaomi.com" target="_blank"><img src="/cn/wp-content/uploads/2013/01/xiaomi.png" width="135" style="border: 1px solid #7b6596; padding: 9px 5px 10px 5px;" /></a></li>
+	   <li style="width: 161px;"><a href="http://www.uc.cn/index.html" target="_blank"><img src="/cn/wp-content/uploads/sponsors/ucweb.png" height="57" style="border: 1px solid #7b6596; padding: 0;" /></a></li>
+	    <li style="width: 161px;"><a href="http://www.xiaomi.com" target="_blank"><img src="/cn/wp-content/uploads/sponsors/xiaomi.png" height="57" style="border: 1px solid #7b6596; padding: 0;" /></a></li>
 	   
 	   <li style="width: 111px;"><img src="<?php echo get_template_directory_uri(); ?>/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
 	  <li style="width: 139px;"><a href="http://www.domob.cn/" target="_blank"><img src="/cn/wp-content/uploads/2012/09/domob2.png" height="57" 
@@ -95,13 +87,68 @@
 	  <li style="width: 139px;"><a href="http://www.pacific-crest.com/" target="_blank"><img src="/wp-content/uploads/sponsors/pacific-crest.png" height="57" 
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.100tv.com/" target="_blank"><img src="/wp-content/uploads/sponsors/100tv.png" height="57" 
-	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
+	  style="border: 1px solid #eba706; padding: 0;" /></a></li> 
 	</ul>
 	<div class="clearfix"></div>
 	<div class="pagination" id="foo3_pag"></div>
 </div>
+
 <div id="backtotop">
    <a href="#">&uarr; TOP</a>
+</div>
+<div class="footer">
+<div class="foot">
+	<div class="left">
+    	<ul>
+        <h2>参会指南</h2>
+        	<li><a href="http://beijing.thegmic.com/cn/about-gmic2013/" target="_blank" id="about">关于大会</a></li>
+            <li><a href="http://beijing.thegmic.com/cn/logistics/" target="_blank" id="time">时间地点</a></li>
+            <li><a href="http://beijing.thegmic.com/cn/transportation/" target="_blank" id="car">交通指示</a></li>
+            <li><a href="http://beijing.thegmic.com/cn/hotel-info/" target="_blank" id="hot">酒店住宿</a></li>
+        </ul>
+        <ul>
+        <h2>大会结构</h2>
+        	<li><a href="http://beijing.thegmic.com/cn/agenda/" target="_blank" id="quan">主会场日程</a></li>
+            <li><a href="http://beijing.thegmic.com/cn/appspace/" target="_blank" id="quan">开发者星球</a></li>
+            <li><a href="http://beijing.thegmic.com/cn/g-startup/" target="_blank" id="quan">创新大赛</a></li>
+            <li><a href="http://beijing.thegmic.com/cn/ggssummit/" target="_blank" id="quan">GGS游戏峰会</a></li>
+            <li><a href="http://beijing.thegmic.com/cn/mobiz/" target="_blank" id="quan">移动价值峰会</a></li>
+            <li><a href="http://beijing.thegmic.com/cn/mobilemarketing/" target="_blank" id="quan">移动营销峰会</a></li>
+        </ul>
+        <ul>
+        <h2>往届回顾</h2>
+        	<li><a href="http://www.gmic-sv.com/" target="_blank" id="quan">GMIC 硅谷 2012</a></li>
+            <li><a href="http://gmic2012.gwc.net/cn" target="_blank" id="quan">GMIC 北京 2012</a></li>
+            <li><a href="http://gmic2011.gwc.net/cn" target="_blank" id="quan">GMIC 北京 2011</a></li>
+            <li><a href="http://www.gwc.net/GMIC2010" target="_blank" id="quan">GMIC 北京 2010</a></li>
+            <li><a href="http://www.gwc.net/GMIC2009" target="_blank" id="quan">GMIC 北京 2009</a></li>
+        </ul>
+        <ul>
+        <h2>文档下载</h2>
+        	<li><a href="http://share.gwc.net/sites/default/files/GMIC-Beijing-2013-Brochure-cn.pdf" target="_blank" id="down">大会手册-中文版</a></li>
+            <li><a href="http://share.gwc.net/sites/default/files/GMIC-Beijing-2013-Brochure-en.pdf" target="_blank" id="down">大会手册-EngLish</a></li>
+        </ul>
+    </div>
+    <div class="right">
+    	<ul>
+        <h2>参会指南</h2>
+        <li class="m1">赞助及商务合作咨询: biz@gwc.net</li>
+        <li class="m2">演讲者、展览、媒体等其他咨询: gmic@gwc.net</li>
+        <li class="m3">长城会会员申请咨询: member@gwc.net</li>
+        <li class="m4">致电我们: 010-82525377</li>
+        <li><select name="各国语言网站快速导航" class="map" onChange="if(this.selectedIndex && this.selectedIndex!=0)
+  {window.open(this.value);}this.selectedIndex=0;">
+
+<option selected>各国语言网站快速导航</option>
+<option value=http://beijing.thegmic.com>English</option>
+<option value=http://beijing.thegmic.com/jp/>日本語</option>
+</select>
+
+        </li>
+        <span class="bq">Copyright © 全球移动互联网大会 - All rights reserved.</span>
+        </ul>
+    </div>
+</div>
 </div>
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
