@@ -32,7 +32,6 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 			<article id="post-<?php the_ID(); ?>" <?php post_class('entry clearfix'); ?>>
 				<a style="float: right;" href="/cn/previous-speakers" target="_blank" id="previous-speakers" class="action-button"><span class="color"><span class="text">往届演讲嘉宾</span></span></a>
 				
-
 				<?php
 					$thumb = '';
 					$width = apply_filters('et_blog_image_width',640);
@@ -50,14 +49,14 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 				
 				<div class="post-content">
 					<?php the_content(); ?>
-					<ul id="et_portfolio_sort_links" class="speakers_page"><li><a href="#keynote-speakers">主题演讲嘉宾</a></li><li><a href="#main-stage-speakers">主会场演讲嘉宾</a></li><li><a href="#g-startup-speakers">创新大赛演讲嘉宾</a></li><li><a href="#appspace-speakers">开发者星球演讲嘉宾</a></li></ul>
+					<ul id="et_portfolio_sort_links" class="speakers_page"><li><a href="#keynote-speakers">主题演讲嘉宾</a></li><li><a href="#main-stage-speakers">主会场演讲嘉宾</a></li><li><a href="#side-stage-speakers">分会场演讲嘉宾</a></li></ul>
 					<div id="et_pt_portfolio_gallery" class="clearfix responsive<?php echo $et_ptemplate_portfolio_class; ?>">
 						<?php 
 						sort($gallery_cats);
 						foreach($gallery_cats as $gallery_cat) {
     					 ?>
 							<h2 style="padding: 0 0 14px 7px;" id="<?php $mycategory = get_category( $gallery_cat ); echo $mycategory->slug; ?>"><?php echo get_cat_name( $gallery_cat ) ?></h2>
-							<p style="padding: 0 0 14px 7px;">按姓氏拼音排序</p>
+							<p style="padding: 0 0 14px 7px;">*按姓氏拼音排序</p>
 							<?php $gallery_query = '';
 						$portfolio_count = 1;
 						$et_open_row = false;
