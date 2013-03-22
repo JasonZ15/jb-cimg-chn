@@ -1,23 +1,7 @@
 <?php get_header(); ?>
 <?php get_template_part('includes/breadcrumbs', 'page'); ?>
 <?php if ( 'on' == et_get_option('flexible_featured', 'on') && is_home() ) get_template_part( 'includes/featured', 'home' ); ?>
-<!--<div id="speaker_slider" class="image_carousel">
-	<p>GMIC硅谷大会演讲嘉宾</p>
-	<div id="foo1">
-		<div id="speaker1"><a href="http://www.gmic-sv.com/kevin-chou/" target="_blank"></a><span>Kevin Chou</span><span>CEO, Kabam, Inc.</span></div>
-		<div id="speaker2"><a href="http://www.gmic-sv.com/tim-draper/" target="_blank"></a><span>Tim Draper</span><span>Managing Director, DFJ</span></div>
-		<div id="speaker3"><a href="http://www.gmic-sv.com/lei-jun-2/" target="_blank"></a><span>Lei Jun</span><span>CEO, Xiaomi</span></div>
-		<div id="speaker4"><a href="http://www.gmic-sv.com/aaron-levie/" target="_blank"></a><span>Aaron Levie</span><span>CEO, Box</span></div>
-		<div id="speaker5"><a href="http://www.gmic-sv.com/phil-libin/" target="_blank"></a><span>Phil Libin</span><span>CEO, Evernote</span></div>
-		<div id="speaker6"><a href="http://www.gmic-sv.com/niccolo-de-masi/" target="_blank"></a><span>Niccolo de Masi</span><span>CEO, Glu Mobile</span></div>
-		<div id="speaker7"><a href="http://www.gmic-sv.com/john-riccitiello/" target="_blank"></a><span>John Riccitiello</span><span>CEO, Electronic Arts (EA)</span></div>
-		<div id="speaker8"><a href="http://www.gmic-sv.com/mihir-shah/" target="_blank"></a><span>Mihir Shah</span><span>CEO, Tapjoy</span></div>
-		<div id="speaker9"><a href="http://www.gmic-sv.com/vaughan-smith/" target="_blank"></a><span>Vaughan Smith</span><span>VP, Facebook</span></div>
-		<div id="speaker10"><a href="http://www.gmic-sv.com/tayloe-stansbury/" target="_blank"></a><span>Tayloe Stansbury</span><span>CTO, Intuit</span></div>
-		<div id="speaker11"><a href="http://www.gmic-sv.com/yu-yongfu-2/" target="_blank"></a><span>Yu Yongfu</span><span>CEO, UC Web</span></div>
-	</div>
-	<div class="clearfix"></div>
-</div>-->
+
 
 <?php if ( 'on' == et_get_option('flexible_quote','on') ) { ?>
 	<div id="quote">
@@ -69,13 +53,38 @@
 		</div> <!-- end #portfolio-grid -->
 	</section> <!-- end #portfolio -->
 <?php } ?>
-
+<div id="speaker_slider" class="image_carousel">
+	<div class="speaker">
+	<div class="title"><h2>演讲嘉宾</h2></div>
+	<div id="foo1">		
+		<div id="speaker2"><a href="#"></a></div>
+		<div id="speaker3"><a href="#"></a></div>
+		<div id="speaker4"><a href="#"></a></div>
+		<div id="speaker5"><a href="#"></a></div>
+		<div id="speaker6"><a href="#"></a></div>
+		<div id="speaker7"><a href="#"></a></div>
+		<div id="speaker8"><a href="#"></a></div>
+		<div id="speaker9"><a href="#"></a></div>
+		<div id="speaker10"><a href="#"></a></div>
+		<div id="speaker11"><a href="#"></a></div>
+        <div id="speaker12"><a href="#"></a></div>
+        <div id="speaker13"><a href="#"></a></div>
+        <div id="speaker14"><a href="#"></a></div>
+        <div id="speaker15"><a href="#"></a></div>
+        <div id="speaker16"><a href="#"></a></div>
+        <div id="speaker17"><a href="#"></a></div>
+        <div id="speaker18"><a href="#"></a></div>
+        <div id="speaker1"><a href="#"></a></div>
+	</div></div>
+	<div class="clearfix"></div>
+</div>
 <?php if ( 'on' == et_get_option('flexible_display_fromblog_section','on') && ( 'false' == et_get_option('flexible_blog_style','false') ) ) { ?>
 	<section id="blog" class="clearfix">
-		<h1 class="section-title"><a href="/cn/category/recent-news/" target="_blank"><?php esc_html_e( '最新消息', 'Flexible' ); ?></a></h1>
+		<div class="news">
+	<div class="title"><h2>最新消息</h2></div>
 		<!--<span class="section-tagline"><?php esc_html_e( '最新消息', 'Flexible' ); ?></span>-->
 		
-		<a href="<?php echo esc_url( et_get_option( 'flexible_more_posts_url', '#' ) ); ?>" class="more"><?php esc_html_e( '阅读更多 &raquo;', 'Flexible' ); ?></a>
+		
 		
 		<div id="blog-grid">
 			<?php $i = 0; ?>
@@ -85,20 +94,34 @@
 					$last_class = ( $i % 3 == 0 ) ? ' last' : '';
 				?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class('blog-item' . $last_class); ?>>
-					<span class="date"><?php echo get_the_time( 'M' ); ?><strong><?php echo get_the_time( 'd' ); ?></strong></span>
+					
 
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-					<p class="meta-info"><?php printf( __('Posted on %1$s by %2$s', 'Flexible'), get_the_time( apply_filters( 'et_home_post_date_format', 'M j' ) ), et_get_the_author_posts_link() ); ?></p>
+                    <div class="mooth-hotimg">
+                     <?php 
+ if ( has_post_thumbnail()) {
+   $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
+
+   the_post_thumbnail('thumbnail');
+
+ }
+ ?></div>
+					<p class="meta-info">
+					<?php printf( __('Posted on %1$s by %2$s', 'Flexible'), get_the_time( apply_filters( 'et_home_post_date_format', 'M j' ) ), et_get_the_author_posts_link() ); ?></p>
 					<p><?php the_excerpt(); ?></p>
-					
+					<span class="date"><?php the_date('Y-m-d', '<h2>', '</h2>'); ?>
+</span>
 					<!--<p><?php truncate_post(375); ?></p>-->  
+                    
 				</article> <!-- end .blog-item -->
 			<?php endwhile; else : ?>
 				<article id="post-0" class="post no-results not-found">
-					<h2 class="entry-title"><?php _e( 'Nothing Found', 'Flexible' ); ?></h1>
+					<h2 class="entry-title"><?php _e( 'Nothing Found', 'Flexible' ); ?></h2>
 				</article><!-- end #post-0 -->
 			<?php endif; ?>
 		</div> <!-- end #blog-grid -->
+        <a href="<?php echo esc_url( et_get_option( 'flexible_more_posts_url', '#' ) ); ?>" class="more"><?php esc_html_e( '阅读更多 &raquo;', 'Flexible' ); ?></a>
+        </div>
 	</section> <!-- end #blog -->
 <?php } ?>
 
