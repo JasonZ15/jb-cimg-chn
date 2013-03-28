@@ -37,16 +37,6 @@ echo $image[0]; ?>" />
 		<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 	<![endif]-->
 <link rel="Shortcut Icon" type="image/ico" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" />
-	<!-- <script type="text/javascript">
-		document.documentElement.className = 'js';
-	</script>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script> -->
 	<?php wp_head(); ?>
         <style>
 body{margin: 0 0 0 0;text-align:center; background:#fcfcfc url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/bg.jpg) center top no-repeat; padding:0;color:#301504; font-family:"Microsoft YaHei";}img{border:0}
@@ -91,7 +81,7 @@ a.japanese { right: 56px; width: 58px;}
 	background-repeat: no-repeat;
 	background-position: left;
 }
-.head .btn3{ width:107px;padding-left:16px; background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/speaker.jpg) #0097f3 left no-repeat;height:34px; line-height:34px; float:left; margin-left:5px; display:inline;}
+.head .btn3{ width:107px;padding-left:16px;) #0097f3 left no-repeat;height:34px; line-height:34px; float:left; margin-left:5px; display:inline;}
 .social-buttons a { float: left; height: 25px;  margin: 0 2px;  width: 25px;}
 .social-buttons a#fb {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/social-buttons-over.png") no-repeat scroll 100px 0 transparent;}
 .social-buttons a#tt {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/social-buttons-over-02.png") no-repeat scroll 100px 0 transparent;}
@@ -153,7 +143,7 @@ a.japanese { right: 56px; width: 58px;}
 .foot .right ul li.m3 {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/lianxi-3.jpg") no-repeat scroll 0 4px transparent;padding-left:20px; height:26px; line-height:26px; }
 .foot .right ul li.m4 {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/lianxi-4.jpg") no-repeat scroll 0 5px transparent;padding-left:20px; height:26px; line-height:26px; }
 .foot .right .map {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/footer-map.jpg") no-repeat scroll 0 0 transparent;padding-left:30px; line-height:24px; height:24px;font-size:12px; font-family:"宋体"; color:#666666; border:0; padding-top:3px;}
-.foot .right .bq{ font-size:12px; font-family:"微软雅黑"; padding-top:30px; height:20px; float:left; text-align:left; color:#084379; width:100%}
+.foot .right .bq{ font-size:11px; font-family:"微软雅黑"; padding-top:30px; height:20px; float:left; text-align:left; color:#084379; width:100%}
 #breadcrumbs { border-bottom: 1px solid #F0F0E5; font-size: 16px; padding: 10px 0 21px 20px; font-family:"微软雅黑";  text-transform: uppercase;}
 #main-area {margin-bottom: 0; font-family:"Microsoft YaHei";}
 #breadcrumbs #top-menu a {
