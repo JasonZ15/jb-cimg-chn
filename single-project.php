@@ -75,6 +75,16 @@
   <?php } ?>
 		Compatible Platforms: <b><?php echo get_post_meta($post->ID,'app_platforms',true); ?></b>
 	</p>
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<div style="position: static; padding: 14px 0 0 0; " class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-width="450" data-show-faces="true"></div>
 	
 			<?php get_template_part('loop', 'single_project'); ?>
