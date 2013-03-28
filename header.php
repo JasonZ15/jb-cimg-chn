@@ -81,7 +81,7 @@ a.japanese { right: 56px; width: 58px;}
 	background-repeat: no-repeat;
 	background-position: left;
 }
-.head .btn3{ width:107px;padding-left:16px;) #0097f3 left no-repeat;height:34px; line-height:34px; float:left; margin-left:5px; display:inline;}
+.head .btn3{ width:107px;padding-left:16px; background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/speaker-bg.jpg) #0097f3 left no-repeat;height:34px; line-height:34px; float:left; margin-left:5px; display:inline;}
 .social-buttons a { float: left; height: 25px;  margin: 0 2px;  width: 25px;}
 .social-buttons a#fb {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/social-buttons-over.png") no-repeat scroll 100px 0 transparent;}
 .social-buttons a#tt {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/social-buttons-over-02.png") no-repeat scroll 100px 0 transparent;}
