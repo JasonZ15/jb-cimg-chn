@@ -76,11 +76,14 @@
 	  
 	   <li style="width: 161px;"><a href="http://www.uc.cn/index.html" target="_blank"><img src="/cn/wp-content/uploads/sponsors/ucweb.png" height="57" style="border: 1px solid #7b6596; padding: 0;" /></a></li>
 	    <li style="width: 161px;"><a href="http://www.xiaomi.com" target="_blank"><img src="/cn/wp-content/uploads/sponsors/xiaomi.png" height="57" style="border: 1px solid #7b6596; padding: 0;" /></a></li>
+		 <li style="width: 161px;"><a href="http://china.inmobi.com/" target="_blank"><img src="/cn/wp-content/uploads/sponsors/inmobi.png" height="57" style="border: 1px solid #7b6596; padding: 0;" /></a></li>
 		
 	  <li style="width: 111px;"><img src="<?php echo get_template_directory_uri(); ?>/images/platinum-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
 	  <li style="width: 139px;"><a href="http://www.domob.cn/" target="_blank"><img src="/cn/wp-content/uploads/2012/09/domob2.png" height="57" 
 	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.maxthon.com/" target="_blank"><img src="/cn/wp-content/uploads/sponsors/aoyou.png" height="57" 
+	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.boyaa.com/" target="_blank"><img src="/cn/wp-content/uploads/sponsors/boyaa.png" height="57" 
 	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
 	   
 	  <li style="width: 111px;"><img src="<?php echo get_template_directory_uri(); ?>/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
@@ -130,7 +133,7 @@
         <ul>
         <h2>文档下载</h2>
         	<li><a href="http://share.gwc.net/sites/default/files/GMIC-Beijing-2013-Brochure-cn.pdf" target="_blank" id="down">大会手册-中文版</a></li>
-            <li><a href="http://share.gwc.net/sites/default/files/GMIC-Beijing-2013-Brochure-en.pdf" target="_blank" id="down">大会手册-EngLish</a></li>
+            <li><a href="http://share.gwc.net/sites/default/files/GMIC-Beijing-2013-Brochure-en.pdf" target="_blank" id="down">大会手册-English</a></li>
         </ul>
     </div>
     <div class="right">
