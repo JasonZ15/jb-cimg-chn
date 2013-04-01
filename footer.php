@@ -85,6 +85,8 @@
 	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.boyaa.com/" target="_blank"><img src="/cn/wp-content/uploads/sponsors/boyaa.png" height="57" 
 	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.hdtmedia.com/" target="_blank"><img src="/wp-content/uploads/sponsors/hdt.png" height="57" 
+	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
 	   
 	  <li style="width: 111px;"><img src="<?php echo get_template_directory_uri(); ?>/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
 	  <li style="width: 139px;"><a href="http://www.yicha.cn/" target="_blank"><img src="/wp-content/uploads/sponsors/yicha.png" height="57" 
