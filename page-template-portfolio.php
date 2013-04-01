@@ -3,6 +3,20 @@
 Template Name: Portfolio Page
 */
 ?>
+<script language="javascript" src="http://beijing.thegmic.com/cn/wp-content/themes/gmic/js/jquery_mini.js"></script>
+<script language="javascript" src="http://beijing.thegmic.com/cn/wp-content/themes/gmic/js/jquery.dimensions.js"></script>
+<script language="javascript">
+	var name = "#floatMenu";
+	var menuYloc = null;
+	
+		$(document).ready(function(){
+			menuYloc = parseInt($(name).css("top").substring(0,$(name).css("top").indexOf("px")))
+			$(window).scroll(function () { 
+				offset = menuYloc+$(document).scrollTop()+"px";
+				$(name).animate({top:offset},{duration:500,queue:false});
+			});
+		}); 
+	 </script>
 <?php 
 $et_ptemplate_settings = array();
 $et_ptemplate_settings = maybe_unserialize( get_post_meta($post->ID,'et_ptemplate_settings',true) );
@@ -21,7 +35,58 @@ $et_ptemplate_portfolio_class = '';
 if ( $et_ptemplate_portfolio_size == 1 ) $et_ptemplate_portfolio_class = ' et_portfolio_small';
 if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_portfolio_large';
 ?>
-
+<style>
+#floatMenu {
+	position:absolute;
+	top:290px;
+	right:0px;
+	width:120px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+#floatMenu ul {
+	margin-bottom:20px;
+}
+#floatMenu ul li a {
+	display:block;
+	border:1px solid #0068c8;
+	background-color:#22a4f7;
+	border-left:6px solid #0068c8;
+	text-decoration:none;
+	color:#eaf7ff;
+	padding:6px 5px 6px 8px;
+	 text-align:left;
+}
+#floatMenu ul li a:hover {
+	color:#fff;
+	background-color:#6666cc;
+}
+#floatMenu ul.menu1 li a:hover {
+	border-color:#4572d3;
+}
+#floatMenu ul.menu2 li a:hover {
+	border-color:#4a4cb9;
+}
+#floatMenu ul.menu3 li a:hover {
+	border-color:#990099;
+}
+a {
+	color: #FF0099;
+</style>
+<?php the_content(); ?>
+<div id="floatMenu">
+  <!--<ul class="menu1">
+    <li><a href="#" onclick="return false;"> 主题演讲嘉宾 </a></li>
+  </ul>-->
+  <ul class="menu2">
+    <li><a href="#keynote-speakers"> 主题演讲嘉宾 </a></li>
+    <li><a href="#main-stage-speakers" > 主会场演讲嘉宾 </a></li>
+    <li><a href="#side-stage-speakers"> 分会场演讲嘉宾 </a></li>
+  </ul>
+  <ul class="menu3">
+    <li><a href="/cn/previous-speakers" target="_blank"> 往届演讲嘉宾 </a></li>
+  </ul>
+</div>
 <?php get_header(); ?>
 
 <?php get_template_part('includes/breadcrumbs', 'page'); ?>
@@ -30,8 +95,7 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 	<div id="left-area">
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>				
 			<article id="post-<?php the_ID(); ?>" <?php post_class('entry clearfix'); ?>>
-				<a style="float: right;" href="/cn/previous-speakers" target="_blank" id="previous-speakers" class="action-button"><span class="color"><span class="text">往届演讲嘉宾</span></span></a>
-				
+			
 				<?php
 					$thumb = '';
 					$width = apply_filters('et_blog_image_width',640);
@@ -49,7 +113,7 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 				
 				<div class="post-content">
 					<?php the_content(); ?>
-					<ul id="et_portfolio_sort_links" class="speakers_page"><li><a href="#keynote-speakers">主题演讲嘉宾</a></li><li><a href="#main-stage-speakers">主会场演讲嘉宾</a></li><li><a href="#side-stage-speakers">分会场演讲嘉宾</a></li></ul>
+			
 					<div id="et_pt_portfolio_gallery" class="clearfix responsive<?php echo $et_ptemplate_portfolio_class; ?>">
 						<?php 
 						sort($gallery_cats);
@@ -142,7 +206,7 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 							<?php } ?>
 							
 							<?php if ( ($et_ptemplate_portfolio_size == 2 && $fullwidth && $portfolio_count % 3 == 0) || ($et_ptemplate_portfolio_size == 1 && !$fullwidth && $portfolio_count % 3 == 0) || ($et_ptemplate_portfolio_size == 1 && $fullwidth && $portfolio_count % 5 == 0) ) { ?>
-								</div> <!-- end .et_pt_portfolio_row -->
+				  </div> <!-- end .et_pt_portfolio_row -->
 								<div class="et_pt_portfolio_row clearfix">
 								<?php $et_open_row = true; ?>
 							<?php } ?>
@@ -162,14 +226,14 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 						<?php else : ?>
 							<?php if ( $et_open_row ) { 
 								$et_open_row = false; ?>
-								</div> <!-- end .et_pt_portfolio_row -->
+	  </div> <!-- end .et_pt_portfolio_row -->
 							<?php } ?>
 							<?php get_template_part('includes/no-results'); ?>
 						<?php endif; wp_reset_query(); ?>
 						
 						<?php if ( $et_open_row ) { 
 							$et_open_row = false; ?>
-							</div> <!-- end .et_pt_portfolio_row -->
+  </div> <!-- end .et_pt_portfolio_row -->
 						<?php } ?>
 						
 						<?php if ( '' != $et_videos_output ) echo '<div class="et_embedded_videos">' . $et_videos_output . '</div>'; ?>
@@ -179,8 +243,7 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 					
 					<?php wp_link_pages(array('before' => '<p><strong>'.esc_attr__('Pages','Flexible').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 					<?php edit_post_link(esc_attr__('Edit this page','Flexible')); ?>
-				</div> 	<!-- end .post-content -->
-			</article> <!-- end .entry -->
+				</div> 	<!-- end .post-content --><!-- end .entry -->
 		<?php endwhile; // end of the loop. ?>
 	</div> <!-- end #left_area -->
 
