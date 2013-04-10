@@ -55,7 +55,7 @@ a.japanese { right: 56px; width: 58px;}
 .head .left{ float:left; width:305px;}
 .head .right{ float:right; width:320px;}
 .head .logo{ width:305px; height:124px; float:left; padding-bottom:10px;}
-.head .btn{ float:right; height:34px; color:#fff; font-family:"微软雅黑"; font-size:16px;}
+.head .btn{ float:right; height:34px; color:#fff; font-family:"Microsoft YaHei"; font-size:16px;}
 .head .btn a{ color:#fff; text-decoration:none;}
 .head .btn1{
 	width: 77px;
@@ -108,23 +108,23 @@ a.japanese { right: 56px; width: 58px;}
 	padding-left: 15px;
 	padding-bottom: 0px;
 }
-.djs .time .nub1{ font-size:16px; color:#fff; background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images//day-bg.jpg) no-repeat; width:25px; height:23px; font-family:"微软雅黑"; float:left; text-align:center;}
-.djs .time .nub2{ font-size:16px; color:#fff;  background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/hour-bg.jpg) no-repeat; width:26px; height:23px; font-family:"微软雅黑"; float:left; text-align:center;}
-.djs .time .nub3{ font-size:16px; color:#fff;  background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/min-bg.jpg) no-repeat; width:26px; height:23px; font-family:"微软雅黑"; float:left; text-align:center;}
-.djs .time .nub4{ font-size:16px; color:#fff;  background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/second-bg.jpg) no-repeat; width:26px; height:23px; font-family:"微软雅黑"; float:left; text-align:center;}
-.djs .time .text{ float:left; font-size:12px; color:#6c66a6; font-family:"微软雅黑"; padding-top:14px; text-align:center; padding-left:3px; padding-right:1px;}
-.menu{ width:960px; float:left; font-family:"微软雅黑"; font-size:16px; color:#fff; line-height:40px; height:40px;}
+.djs .time .nub1{ font-size:16px; color:#fff; background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images//day-bg.jpg) no-repeat; width:25px; height:23px; font-family:"Microsoft YaHei"; float:left; text-align:center; padding:0; margin:0; line-height:23px;}
+.djs .time .nub2{ font-size:16px; color:#fff;  background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/hour-bg.jpg) no-repeat; width:26px; height:23px; font-family:"Microsoft YaHei"; float:left; text-align:center;padding:0; margin:0; line-height:23px;}
+.djs .time .nub3{ font-size:16px; color:#fff;  background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/min-bg.jpg) no-repeat; width:26px; height:23px; font-family:"Microsoft YaHei"; float:left; text-align:center;padding:0; margin:0; line-height:23px;}
+.djs .time .nub4{ font-size:16px; color:#fff;  background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/second-bg.jpg) no-repeat; width:26px; height:23px; font-family:"Microsoft YaHei"; float:left; text-align:center;padding:0; margin:0; line-height:23px;}
+.djs .time .text{ float:left; font-size:12px; color:#6c66a6; font-family:"Microsoft YaHei"; padding-top:8px; text-align:center; padding-left:3px; padding-right:1px;}
+.menu{ width:960px; float:left; font-family:"Microsoft YaHei"; font-size:16px; color:#fff; line-height:40px; height:40px;}
 .speaker{ width:960px; float:left}
 .speaker .title{ background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/title-line.jpg) no-repeat center; margin-bottom:30px;}
-.speaker .title h2{ margin:auto; padding-left:10px; padding-right:10px; font-family:"微软雅黑"; font-size:28px; line-height:36px; height:36px; color:#666666; text-align:center;}
+.speaker .title h2{ margin:auto; padding-left:10px; padding-right:10px; font-family:"Microsoft YaHei"; font-size:28px; line-height:36px; height:36px; color:#666666; text-align:center;}
 .news{ width:960px; float:left; padding-bottom:20px;}
 .news .title{ background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/title-line.jpg) no-repeat center; margin-bottom:30px;}
-.news .title h2{ margin:auto; padding-left:10px; padding-right:10px; font-family:"微软雅黑"; font-size:28px; line-height:36px; height:36px; color:#666666; text-align:center;}
+.news .title h2{ margin:auto; padding-left:10px; padding-right:10px; font-family:"Microsoft YaHei"; font-size:28px; line-height:36px; height:36px; color:#666666; text-align:center;}
 .footer{ background:url(http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/footer-bg.jpg) center top no-repeat #e5e5e5; height:300px; padding-top:30px;}
 .foot{ width:960px; margin:auto;}
 .foot .left{ width:645px; float:left}
 .foot .left a{ color:#666; text-decoration:none;}
-.foot .left h2{ font-family:"微软雅黑"; font-size:16px; color:#666666; text-align:left; padding-left:2px; height:25px; line-height:25px;}
+.foot .left h2{ font-family:"Microsoft YaHei"; font-size:16px; color:#666666; text-align:left; padding-left:2px; height:25px; line-height:25px;}
 .foot .left ul{  float:left;width:150px;}
 .foot .left ul li{ float:left; font-size:12px; font-family:"宋体"; color:#666666;display:block;width:120px; height:26px; line-height:26px; text-align:left; }
 .foot .left ul li a#about {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/footer-ico-1.jpg") no-repeat scroll 0 -2px transparent;padding-left:20px;}
@@ -135,16 +135,16 @@ a.japanese { right: 56px; width: 58px;}
 .foot .left ul li a#down {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/footer-ico-6.jpg") no-repeat scroll 0 -2px transparent;padding-left:20px;}
 .foot .right{ width:300px; float:right;}
 .foot .right a{ color:#666; text-decoration:none;}
-.foot .right h2{ font-family:"微软雅黑"; font-size:16px; color:#666666; text-align:left; padding-left:2px; height:25px; line-height:25px;}
+.foot .right h2{ font-family:"Microsoft YaHei"; font-size:16px; color:#666666; text-align:left; padding-left:2px; height:25px; line-height:25px;}
 .foot .right ul{  float:left;width:280px;}
 .foot .right ul li{ float:left; font-size:12px; font-family:"宋体"; color:#666666;width:280px;text-align:left; }
 .foot .right ul li.m1 {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/lianxi-1.jpg") no-repeat scroll 0 5px transparent;padding-left:20px; height:26px; line-height:26px; }
 .foot .right ul li.m2 {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/lianxi-2.jpg") no-repeat scroll 0 4px transparent;padding-left:20px; height:26px; line-height:26px; }
 .foot .right ul li.m3 {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/lianxi-3.jpg") no-repeat scroll 0 4px transparent;padding-left:20px; height:26px; line-height:26px; }
 .foot .right ul li.m4 {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/lianxi-4.jpg") no-repeat scroll 0 5px transparent;padding-left:20px; height:26px; line-height:26px; }
-.foot .right .map {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/footer-map.jpg") no-repeat scroll 0 0 transparent;padding-left:30px; line-height:24px; height:24px;font-size:12px; font-family:"宋体"; color:#666666; border:0; padding-top:3px;}
-.foot .right .bq{ font-size:11px; font-family:"微软雅黑"; padding-top:30px; height:20px; float:left; text-align:left; color:#084379; width:100%}
-#breadcrumbs { border-bottom: 1px solid #F0F0E5; font-size: 16px; padding: 10px 0 21px 20px; font-family:"微软雅黑";  text-transform: uppercase;}
+.foot .right .map {background: url("http://beijing.thegmic.com/cn/wp-content/themes/gmic/images/footer-map.jpg") no-repeat scroll 0 0 transparent;padding-left:30px; line-height:24px; height:24px;font-size:12px; font-family: Arial, Helvetica, sans-serif,"宋体"; color:#666666; border:0; padding-top:3px;}
+.foot .right .bq{ font-size:11px; font-family:"Microsoft YaHei"; padding-top:30px; height:20px; float:left; text-align:left; color:#084379; width:100%}
+#breadcrumbs { border-bottom: 1px solid #F0F0E5; font-size: 16px; padding: 10px 0 21px 20px; font-family:"Microsoft YaHei";  text-transform: uppercase;}
 #main-area {margin-bottom: 0; font-family:"Microsoft YaHei";}
 #breadcrumbs #top-menu a {
     color: #fff;
@@ -217,13 +217,13 @@ setTimeout("clock()",1000)}
         <div class="time">
         	<div class="djs">
             <div class="time"><form name="formnow">
-<input name="dd" type="text" style="border:0;" size=2 class="nub1">
+<input name="dd" type="text" style="border:0;"  class="nub1">
 <div class="text">天</div>
-<input name="hh" type="text" style="border:0;" size=2 class="nub2">
+<input name="hh" type="text" style="border:0;"  class="nub2">
 <div class="text">小时</div>
-<input name="mm" type="text" style="border:0;" size=2 class="nub3">
+<input name="mm" type="text" style="border:0;"  class="nub3">
 <div class="text">分</div>
-<input name="ss" type="text" style="border:0;" size=2 class="nub4">
+<input name="ss" type="text" style="border:0;"  class="nub4">
 <div class="text">秒</div>
 </form></div>
 </div>
