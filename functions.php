@@ -106,9 +106,9 @@ function et_load_flexible_scripts(){
 	if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' );
 }
 
- function et_add_google_fonts(){
- wp_enqueue_style( 'google_font_open_sans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700&amp;subset=latin,latin-ext,cyrillic' );
-}
+ //function et_add_google_fonts(){
+ //wp_enqueue_style( 'google_font_open_sans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700&amp;subset=latin,latin-ext,cyrillic' );
+//}
 
 function et_add_viewport_meta(){
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />';
