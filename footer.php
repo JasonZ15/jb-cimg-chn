@@ -89,9 +89,19 @@
 	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.hdtmedia.com/" target="_blank"><img src="/wp-content/uploads/sponsors/hdt.png" height="57" 
 	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.neic.com.cn/" target="_blank"><img src="/wp-content/uploads/sponsors/NEIC.png" height="57" 
+	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.touchpal.com/" target="_blank"><img src="/wp-content/uploads/sponsors/chubao.png" height="57" 
+	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.moyogame.com/" target="_blank"><img src="/wp-content/uploads/sponsors/moyo.png" height="57" 
+	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.wqmobile.com/" target="_blank"><img src="/wp-content/uploads/sponsors/wqmobile.png" height="57" 
 	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.boyaa.com/" target="_blank"><img src="/wp-content/uploads/sponsors/boyaa.png" height="57" 
+	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.letv.com/" target="_blank"><img src="/jp/wp-content/uploads/sponsors/letv.png" height="57"
+	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.cloopen.com/" target="_blank"><img src="/wp-content/uploads/sponsors/cloopen.png" height="57"
 	  style="border: 1px solid #547bed; padding: 0;" /></a></li>
 	   
 	  <li style="width: 111px;"><img src="<?php echo get_template_directory_uri(); ?>/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
@@ -101,12 +111,22 @@
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.rockmobile.com.cn/" target="_blank"><img src="/wp-content/uploads/sponsors/rock-mobile.png" height="57" 
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
+	   <li style="width: 139px;"><a href="http://www.adsage.cn/" target="_blank"><img src="/wp-content/uploads/sponsors/adSage.png" height="57" 
+	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.pacific-crest.com/" target="_blank"><img src="/wp-content/uploads/sponsors/pacific-crest.png" height="57" 
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.100tv.com/" target="_blank"><img src="/wp-content/uploads/sponsors/100tv.png" height="57" 
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li> 
       <li style="width: 139px;"><a href="http://www.appannie.com/" target="_blank"><img src="/wp-content/uploads/sponsors/appannie-foot.png" height="57" 
 	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
+	   <li style="width: 139px;"><a href="http://www.adwo.com/" target="_blank"><img src="/wp-content/uploads/sponsors/adwo.png" height="57" 
+	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.zhidian3g.com/" target="_blank"><img src="/wp-content/uploads/sponsors/zhidian.png" height="57" 
+	  style="border: 1px solid #eba706; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.getjar.com/" target="_blank"><img src="/wp-content/uploads/sponsors/GetJar.png" height="57"style="border: 1px solid #eba706; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.autonavi.com/" target="_blank"><img src="/wp-content/uploads/sponsors/autonavi.png" height="57"style="border: 1px solid #eba706; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.ksyun.com/" target="_blank"><img src="/wp-content/uploads/sponsors/ksyun.png"height="57"style="border: 1px solid #eba706; padding: 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.yijifen.com/" target="_blank"><img src="/wp-content/uploads/sponsors/yijifen.png"height="57"style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	</ul>
 	<div class="clearfix"></div>
 	<div class="pagination" id="foo3_pag"></div>
@@ -150,7 +170,7 @@
     </div>
     <div class="right">
     	<ul>
-        <h2>参会指南</h2>
+        <h2>联系方式</h2>
         <li class="m1">赞助及商务合作咨询: biz@gwc.net</li>
         <li class="m2">演讲者、展览、媒体等其他咨询: gmic@gwc.net</li>
         <li class="m3">长城会会员申请咨询: member@gwc.net</li>
